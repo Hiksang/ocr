@@ -1,14 +1,12 @@
 import tb.OcrToTableTool as ottt
 import tb.TableExtractor as te
 import tb.TableLinesRemover as tlr
-import cv2
-import ReadTable as rt
+import tb.ReadTable as rt
 import src.config.IocConfig
 from src.config.IocContainer import AppContext
 from src.config.ContextType import ( RepositoryType, ServiceType )
 from src.config.database_util import DatabaseUtil
-
-
+import cv2
 
 path_to_image = "./figure/0.jpg"
 
